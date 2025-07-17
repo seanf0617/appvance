@@ -56,78 +56,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='363c1ec7-d0ec-49a8-a407-35f8f0468de7' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='XPathId' value='byXPath(&apos;//*[@id="variant_id_21"]&apos;)' selected='true' fallback='true'></accessor>
-        <accessor type='Id' value='radio("variant_id_21")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrName' value='radio("variant_id[4]")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrValue' value='radio("21")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//input[@id=&apos;variant_id_21&apos;]")' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/ul/li[5]/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;variant_id_21&apos;)")' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;#variant_id_21&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;input[value="21"]&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='navigateTo' value='"https://demosite.appvance.net/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='03fe48f8-b834-4d2b-9517-a5bdb9b9764f' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='' value='' selected='true' fallback='false'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='7ac199bf-fa3b-4e69-8c94-8b49d8999c48' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='Parent' value='span(0, _in(div("product_1")))' selected='true' fallback='true'></accessor>
-        <accessor type='Parent' value='span(0, _in(div({&apos;id&apos;:&apos;product_1&apos;})))' selected='false' fallback='true'></accessor>
-        <accessor type='AttrTitle' value='span("Ruby on Rails Tote")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrClass' value='span("info")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='span("Ruby on Rails Tote")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_1&apos;]/div/div[1]/a/span")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="info"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='XPathText' value='byXPath(&apos;//*[text()="Ruby on Rails Tote"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/span&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_1&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/span[@class=&apos;info&apos;]")' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='span({&apos;itemprop&apos;:&apos;name&apos;})' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;span[title="Ruby on Rails Tote"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;span[class="info"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;.info&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='398b3549-0470-4c8f-90a9-6d8d1d73cef6' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
-        <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathName' value='byXPath(&apos;//*[@name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Id' value='numberbox("quantity")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrName' value='numberbox("quantity")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//input[@id=&apos;quantity&apos;]")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathClass' value='byXPath(&apos;//*[@class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;quantity&apos;)")' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;min&apos;:&apos;1&apos;})' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;#quantity&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dcf1ee11-9853-4be4-a0e9-94d20b3b1225' uiType='base'>
-      <dialect type='sahi'>
-        <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
-        <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
-        <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='AttrClass' value='submit("btn btn-success[1]")' selected='false' fallback='true'></accessor>
-        <accessor type='XPathName' value='byXPath(&apos;//*[@name="button"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
-        <accessor type='AttrName' value='submit("button")' selected='false' fallback='true'></accessor>
-        <accessor type='Text' value='submit("Add To Cart")' selected='false' fallback='true'></accessor>
-        <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
-      </dialect>
-    </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f8f2ee1e-b691-4e2c-990f-8b646f783ebb' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f8f2ee1e-b691-4e2c-990f-8b646f783ebb' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='div(5, _in(div("inside-product-cart-form"))).xy(0.38, 0.68 )' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='div(5, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;}))).xy(0.38, 0.68 )' selected='false' fallback='true'></accessor>
@@ -141,7 +70,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;#inside-product-cart-form &gt; .col-md-5 &gt; .add-to-cart &gt; .input-group&apos;).xy(0.38, 0.68 )' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='eb727b2f-3c01-4462-8fd7-caea4148016c' uiType='base'>
+    <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='eb727b2f-3c01-4462-8fd7-caea4148016c' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="quantity"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -159,7 +88,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c55c7b8d-da51-4f16-a84b-b291713bf022' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c55c7b8d-da51-4f16-a84b-b291713bf022' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -177,7 +106,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fc0957a-f35f-4fb9-ba64-42af9b3e7034' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fc0957a-f35f-4fb9-ba64-42af9b3e7034' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='link(0, _in(paragraph("clear_cart_link")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='link(0, _in(paragraph({&apos;id&apos;:&apos;clear_cart_link&apos;})))' selected='false' fallback='true'></accessor>
@@ -194,7 +123,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;a[href="/products"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f8547c04-34c5-4501-88bf-ad58076be9bd' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='f8547c04-34c5-4501-88bf-ad58076be9bd' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='submit(0, _in(div("inside-product-cart-form")))' selected='true' fallback='true'></accessor>
         <accessor type='Parent' value='submit(0, _in(div({&apos;id&apos;:&apos;inside-product-cart-form&apos;})))' selected='false' fallback='true'></accessor>
@@ -212,7 +141,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="button"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='571f2a3d-90d6-4baf-b415-d0c1457bacbe' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='571f2a3d-90d6-4baf-b415-d0c1457bacbe' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="checkout-link"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='submit("btn btn-lg btn-success")' selected='false' fallback='true'></accessor>
@@ -229,7 +158,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;button[name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='setValue' value='"demo@stella.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='529fc344-86a8-4058-83da-de01e3a86932' uiType='base'>
+    <step action='setValue' value='"demo@stella.com"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='529fc344-86a8-4058-83da-de01e3a86932' uiType='base'>
       <dialect type='sahi'>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="order_email"]&apos;)' selected='true' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
@@ -245,7 +174,7 @@
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
-    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc639b63-931c-4b2c-a077-f6d71c01b6e9' uiType='base'>
+    <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='dc639b63-931c-4b2c-a077-f6d71c01b6e9' uiType='base'>
       <dialect type='sahi'>
         <accessor type='AttrClass' value='submit("btn btn-block btn-lg btn-success[1]")' selected='true' fallback='true'></accessor>
         <accessor type='AttrName' value='submit("commit[1]")' selected='false' fallback='true'></accessor>

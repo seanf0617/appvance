@@ -11,22 +11,15 @@
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='47162234-9b5a-4c96-a650-65ba7db1c46f' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='image(0, _in(div("product_1"))).xy(0.56, 0.61 )' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div("product_1"))).xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_1&apos;}))).xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Tote").xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Tote"]&apos;).xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
         <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_1&apos;}))).xy(0.56, 0.61 )' selected='false' fallback='true'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Tote").xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Tote").xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='Parent' value='image(0, _in(div("product_1"))).xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Tote"]&apos;).xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Tote"]&apos;).xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='image({&apos;itemprop&apos;:&apos;image&apos;}).xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_1&apos;}))).xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_1&apos;]/div/div[1]/a/img").xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_1&apos;]/div/div[1]/a/img").xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_1&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_1&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/img&apos;).xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/img&apos;).xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/21/small/ror_tote.jpeg?1527769324").xy(0.56, 0.61)' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/21/small/ror_tote.jpeg?1527769324").xy(0.56, 0.61 )' selected='false' fallback='false'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_1&apos;]/div/div[1]/a/img").xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_1&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div/a/img&apos;).xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/21/small/ror_tote.jpeg?1527769324").xy(0.56, 0.61)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='d8d42c1d-b736-4d18-a9b7-908a75c29a74' uiType='base'>
@@ -37,14 +30,13 @@
         <accessor type='JQuery' value='byJQuery(&apos;#quantity&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;quantity&apos;)")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//input[@id=&apos;quantity&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='XPathClass' value='byXPath(&apos;//*[@class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;min&apos;:&apos;1&apos;})' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b4144b94-bd72-4d27-a889-09267855a819' uiType='base'>
@@ -59,11 +51,11 @@
         <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='6c5da575-12c0-4ace-b6d9-66695302f60f' uiType='base'>
@@ -86,22 +78,15 @@
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='93a1d1ec-4668-4757-bf97-6149cb65bd32' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='image(0, _in(div("product_3"))).xy(0.58, 0.62 )' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div("product_3"))).xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_3&apos;}))).xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Baseball Jersey").xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Baseball Jersey"]&apos;).xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
         <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_3&apos;}))).xy(0.58, 0.62 )' selected='false' fallback='true'></accessor>
-        <accessor type='Parent' value='image(0, _in(div("product_3"))).xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Baseball Jersey").xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Baseball Jersey").xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Baseball Jersey"]&apos;).xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Baseball Jersey"]&apos;).xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_3&apos;}))).xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_3&apos;]/div/div[1]/a/img").xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_3&apos;]/div/div[1]/a/img").xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_3&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_3&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[3]/div/div/a/img&apos;).xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[3]/div/div/a/img&apos;).xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/spree/products/24/small/ror_baseball.jpeg?1527769327&apos;}).xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/24/small/ror_baseball.jpeg?1527769327").xy(0.58, 0.62)' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/24/small/ror_baseball.jpeg?1527769327").xy(0.58, 0.62 )' selected='false' fallback='false'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_3&apos;]/div/div[1]/a/img").xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_3&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[3]/div/div/a/img&apos;).xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/24/small/ror_baseball.jpeg?1527769327").xy(0.58, 0.62)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='20a0f5fe-d6c9-4560-8931-4721e6f0185e' uiType='base'>
@@ -114,8 +99,8 @@
         <accessor type='JQuery' value='byJQuery(&apos;#variant_id_21&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[value="21"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;variant_id_21&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='radio({&apos;id&apos;:&apos;variant_id_21&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//input[@id=&apos;variant_id_21&apos;]")' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='radio({&apos;id&apos;:&apos;variant_id_21&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='8e785cac-c469-40c8-9a1e-bc8ba40b8e90' uiType='base'>
@@ -125,17 +110,15 @@
         <accessor type='AttrName' value='numberbox("quantity")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#quantity&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;quantity&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//input[@id=&apos;quantity&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='XPathClass' value='byXPath(&apos;//*[@class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;min&apos;:&apos;1&apos;})' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div[2]/div[2]/div/input&apos;)' selected='false' fallback='false'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div[2]/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='c55c7b8d-da51-4f16-a84b-b291713bf022' uiType='base'>
@@ -150,11 +133,11 @@
         <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div[2]/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='9fc0957a-f35f-4fb9-ba64-42af9b3e7034' uiType='base'>
@@ -177,22 +160,15 @@
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='38ecbf87-c288-480a-8cb3-4db17e90d4ef' uiType='base'>
       <dialect type='sahi'>
         <accessor type='Parent' value='image(0, _in(div("product_2"))).xy(0.56, 0.56 )' selected='true' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div("product_2"))).xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_2&apos;}))).xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='AttrAlt' value='image("Ruby on Rails Bag").xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Bag"]&apos;).xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
         <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_2&apos;}))).xy(0.56, 0.56 )' selected='false' fallback='true'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Bag").xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='AttrAlt' value='image("Ruby on Rails Bag").xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='Parent' value='image(0, _in(div("product_2"))).xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Bag"]&apos;).xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='JQuery' value='byJQuery(&apos;img[alt="Ruby on Rails Bag"]&apos;).xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='Parent' value='image(0, _in(div({&apos;id&apos;:&apos;product_2&apos;}))).xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_2&apos;]/div/div[1]/a/img").xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_2&apos;]/div/div[1]/a/img").xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_2&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_2&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[2]/div/div/a/img&apos;).xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[2]/div/div/a/img&apos;).xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='image({&apos;src&apos;:&apos;/spree/products/23/small/ror_bag.jpeg?1527769326&apos;}).xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/23/small/ror_bag.jpeg?1527769326").xy(0.56, 0.56)' selected='false' fallback='false'></accessor>
-        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/23/small/ror_bag.jpeg?1527769326").xy(0.56, 0.56 )' selected='false' fallback='false'></accessor>
+        <accessor type='XPath' value='byXPath("//div[@id=&apos;product_2&apos;]/div/div[1]/a/img").xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='RelativeXPath' value='byXPath("id(&apos;product_2&apos;)/div[@class=&apos;panel panel-default&apos;]/div[@class=&apos;panel-body text-center product-body&apos;]/a[1]/img[1]").xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div[2]/div/div/a/img&apos;).xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
+        <accessor type='Src' value='image("https://demosite.appvance.net/spree/products/23/small/ror_bag.jpeg?1527769326").xy(0.56, 0.56)' selected='false' fallback='true'></accessor>
       </dialect>
     </step>
     <step action='setValue' value='"2"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='87785941-5dbb-4f8a-a39d-62f2666f11e4' uiType='base'>
@@ -204,14 +180,13 @@
         <accessor type='RelativeXPath' value='byXPath("id(&apos;quantity&apos;)")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[value="1"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='numberbox("form-control title")' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="quantity"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//input[@id=&apos;quantity&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='XPathClass' value='byXPath(&apos;//*[@class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="row"] &gt; div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; input[class="title form-control"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;min&apos;:&apos;1&apos;})' selected='false' fallback='false'></accessor>
-        <accessor type='Attribute' value='numberbox({&apos;id&apos;:&apos;quantity&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b89e353b-47f3-4ce9-bad4-160f8b6d55a0' uiType='base'>
@@ -226,11 +201,11 @@
         <accessor type='Id' value='submit("add-to-cart-button")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#add-to-cart-button&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;add-to-cart-button&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='XPathId' value='byXPath(&apos;//*[@id="add-to-cart-button"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//button[@id=&apos;add-to-cart-button&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="col-md-5"] &gt; div[class="add-to-cart"] &gt; div[class="input-group"] &gt; span[class="input-group-btn"] &gt; button[class="btn btn-success"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/span/button&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;add-to-cart-button&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='ff4e9ada-26d9-4d96-be56-164bb9532263' uiType='base'>
@@ -242,13 +217,13 @@
         <accessor type='Id' value='submit("checkout-link")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;#checkout-link&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout-link&apos;)")' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;checkout-link&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='submit("btn btn-lg btn-success")' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="checkout"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//button[@id=&apos;checkout-link&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='XPathClass' value='byXPath(&apos;//*[@class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;div[class="links col-md-3 navbar-form pull-right text-right"] &gt; div[class="form-group"] &gt; button[class="btn btn-lg btn-success"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div/form/div/div[2]/div/button[2]&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='submit({&apos;id&apos;:&apos;checkout-link&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='setValue' value='"demo@fake.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='1d73c602-3bfe-4eed-b16f-58c02ab7d7f9' uiType='base'>
@@ -259,13 +234,13 @@
         <accessor type='JQuery' value='byJQuery(&apos;#order_email&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;order_email&apos;)")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
+        <accessor type='Attribute' value='emailbox({&apos;id&apos;:&apos;order_email&apos;})' selected='false' fallback='true'></accessor>
         <accessor type='AttrClass' value='emailbox("form-control title")' selected='false' fallback='true'></accessor>
         <accessor type='JQuery' value='byJQuery(&apos;input[class="form-control title"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPathName' value='byXPath(&apos;//*[@name="order[email]"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='XPath' value='byXPath("//input[@id=&apos;order_email&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='XPathClass' value='byXPath(&apos;//*[@class="form-control title"]&apos;)' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div[2]/form/p/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='emailbox({&apos;id&apos;:&apos;order_email&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
     <step action='click' value='' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0' hasBreakPoint='false' indentLevel='0' isVisible='true' parentId='' uid='b83a3527-b2f0-4bcd-a15b-5a4d075da798' uiType='base'>
@@ -277,7 +252,6 @@
         <accessor type='XPath' value='byXPath("//form[@id=&apos;checkout_form_registration&apos;]/p[2]/input")' selected='false' fallback='true'></accessor>
         <accessor type='RelativeXPath' value='byXPath("id(&apos;checkout_form_registration&apos;)/p[2]/input[@class=&apos;btn btn-lg btn-success btn-block&apos;]")' selected='false' fallback='true'></accessor>
         <accessor type='AbsoluteXPath' value='byXPath(&apos;/html/body/div[2]/div/div/div/div[2]/div/div[2]/form/p[2]/input&apos;)' selected='false' fallback='true'></accessor>
-        <accessor type='Attribute' value='submit({&apos;data-disable-with&apos;:&apos;Continue&apos;})' selected='false' fallback='false'></accessor>
       </dialect>
     </step>
   </testcase>
